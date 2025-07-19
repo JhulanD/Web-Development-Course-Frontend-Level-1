@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#intro {
+  height: 50%;
+  width: 100%;
+  
+  padding: 50px;
+}
+
+#intro h1 {
+  font-size: 140px;
+  letter-spacing: -6px;
+  line-height: 130px;
+}
+
+#place {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#place h3, #place h4 {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+#hero-image {
+  height: 80%;
+  width: 100%;
+  background-image: url('https://images.pexels.com/photos/6976096/pexels-photo-6976096.jpeg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+#nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px 50px;
+}
+
+#nav h3 {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  font-size: 20px;
+  margin-left: 5px;
+  border-radius: 50px;
+}
+
+#about {
+  height: 50%;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#about h2 {
+  width: 65%;
+  font-size: 90px;
+  letter-spacing: -4px;
+  line-height: 90px;
+  font-weight: 500;
+}
+
+#about-part2 {
+  width: 30%;
+  height: 100%;
+  border-left: 2px solid black;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#about-part2 h3 {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+#about-icons i {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+#work {
+  height: 55%;
+  width: 100%;
+  padding: 50px;
+  border-top: 2px solid black;
+  display: flex;
+}
+
+#work1 {
+  width: 35%;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  border-right: 2px solid black;
+  padding-right: 60px;
+}
+
+#work1 h2 {
+  font-size: 30px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+#work1 i {
+  font-size: 30px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+#work2 {
+  width: 65%;
+  height: 100%;
+  /* background-color: brown ; */
+  padding: 0 60px;
+}
+
+.work2-part {
+  /* background-color: blanchedalmond; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.work2-part:nth-child(1) {
+  border-bottom: 2px solid black;
+}
+
+.work2-part .elem {
+  width: 50%;
+  height: 100%;
+}
+
+.work2-part .elem:nth-child(1) {
+  border-right: 2px solid black;
+}
+
+.work2-part .elem:nth-child(2) {
+  padding-left: 60px;
+}
