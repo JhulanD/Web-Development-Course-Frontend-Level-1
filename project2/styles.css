@@ -143,19 +143,26 @@ html, body {
 #work2 {
   width: 65%;
   height: 100%;
-  /* background-color: brown ; */
   padding: 0 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centers vertically */
+  align-items: center;     /* centers horizontally */
+  gap: 10px;
 }
+
 
 .work2-part {
   /* background-color: blanchedalmond; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 0;
+  padding: 60px 0;
 }
 
 .work2-part:nth-child(1) {
+  /* padding-top: 0px; */
   border-bottom: 2px solid black;
 }
 
@@ -166,8 +173,22 @@ html, body {
 
 .work2-part .elem:nth-child(1) {
   border-right: 2px solid black;
+  padding-right: 60px;
 }
 
 .work2-part .elem:nth-child(2) {
   padding-left: 60px;
+}
+
+.work2-part .elem h2 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.work2-part .elem p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(90, 90, 90);
 }
